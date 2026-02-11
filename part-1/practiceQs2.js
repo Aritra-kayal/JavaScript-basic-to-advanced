@@ -1,3 +1,4 @@
+//avg of three subject
 let hindi = 80;
 let eng = 90;
 let math = 100;
