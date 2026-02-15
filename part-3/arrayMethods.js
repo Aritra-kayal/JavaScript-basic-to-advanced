@@ -1,0 +1,14 @@
+let cars = ["audi", "bmw", "maruti"];
+console.log(cars);
+cars.push("toyota");
+console.log(cars);
+cars.push("ferrari");
+console.log(cars);
+cars.pop();
+console.log(cars.pop());
+console.log(cars);
+cars.unshift("lamborghini");
+console.log(cars);
+cars.shift();
+console.log(cars.shift());
+console.log(cars);
