@@ -1,0 +1,13 @@
+let marks = [99, 85, 93, 76, 62];
+let name = ["Aritra", "Rahul", "Raj"];
+let info = ["Aritra", 19, 79.99];
+let newArray = [];
+console.log(marks);
+console.log(name);
+console.log(info);
+console.log(newArray);
+console.log(marks.length);
+console.log(marks[marks.length - 1]);
+console.log(name[name.length - 1]);
+console.log(info[0][2]);
+console.log(info[0].length);
