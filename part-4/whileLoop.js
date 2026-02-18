@@ -15,9 +15,15 @@ while (k <= 20) {
   console.log(k);
   k++;
 }
-//even number
+//even numbers
 let m = 0;
 while (m <= 20) {
   console.log(m);
   m = m + 2;
+}
+//odd numbers
+let n = 1;
+while (n <= 20) {
+  console.log(n);
+  n = n + 2;
 }
