@@ -15,3 +15,9 @@ while (k <= 20) {
   console.log(k);
   k++;
 }
+//even number
+let m = 0;
+while (m <= 20) {
+  console.log(m);
+  m = m + 2;
+}
