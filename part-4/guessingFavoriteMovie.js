@@ -1,5 +1,5 @@
-let guess = prompt("Enter movie name:");
 const favMovie = "Avatar";
+let guess = prompt("Enter movie name:");
 while (guess != favMovie && guess != "quit") {
   console.log("wrong");
   guess = prompt("Enter movie name:");
