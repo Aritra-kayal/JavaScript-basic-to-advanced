@@ -5,7 +5,7 @@ let student = {
   subjects: ["hindi", "english", "math", "science"],
   username: "karan123",
   password: 1234,
-  //   city: "pune",
+  city: "pune",
 };
 const { username: user, password: pass, city: place = "kolkata" } = student;
 console.log(user, pass);
