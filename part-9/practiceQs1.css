@@ -1,0 +1,14 @@
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.myDiv {
+  border: 2px solid black;
+  background-color: pink;
+  /* height: 200px;
+  width: 200px; */
+}
