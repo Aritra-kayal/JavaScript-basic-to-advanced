@@ -16,3 +16,7 @@ console.log(typeof firstName.length);
 console.log(firstName[0]);
 console.log(firstName[firstName.length - 2]);
 console.log("Aritr" + " " + "Kayal");
+let c = "Aritra";
+let d = "Kayal";
+let e = c + " " + d;
+console.log(e);
