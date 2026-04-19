@@ -1,2 +1,13 @@
 console.log("I am a student");
 console.log("Hi! Aritra");
+console.log("apna" + " " + "college");
+console.log("apna", "college");
+let a = 10;
+let b = 20;
+console.log("You have to pay", a + b, "rupees");
+console.log(`You have to pay ${a + b} rupees`);
+let output = "You have to pay" + " " + (a + b) + " " + "rupess";
+console.log(output);
+let output1 = `You have to pay ${a + b} rupees`;
+console.log(output1);
+console.log(`Hi I am "Aritra"`);
