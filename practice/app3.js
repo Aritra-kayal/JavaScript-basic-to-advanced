@@ -1,4 +1,4 @@
-// this is part 2 JavaScript
+// template literal
 let firstName = prompt("Enter your first name: ");
 let lastName = prompt("Enter your last name: ");
 let name = `hi ${firstName + " " + lastName}!`;
