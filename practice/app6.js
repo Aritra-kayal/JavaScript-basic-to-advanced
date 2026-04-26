@@ -1,3 +1,4 @@
+//2D array
 let game = [
   ["X", null, "O"],
   [null, "X", null],
