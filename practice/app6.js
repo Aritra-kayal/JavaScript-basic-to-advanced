@@ -1,4 +1,4 @@
-//2D array
+//2D array in JavaScript
 let game = [
   ["X", null, "O"],
   [null, "X", null],
