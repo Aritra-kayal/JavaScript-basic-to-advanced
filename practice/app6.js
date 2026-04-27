@@ -5,4 +5,5 @@ let game = [
   ["O", null, "X"],
 ];
 game[0][1] = "O";
+game[1][2] = "X";
 console.log(game);
