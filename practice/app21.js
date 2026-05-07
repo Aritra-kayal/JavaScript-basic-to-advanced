@@ -60,12 +60,23 @@
 // n = parseInt(n);
 // console.log(sumOfNNumber(n));
 
-function concatenationOfString(arr) {
-  let con = "";
-  for (let i = 0; i < arr.length; i++) {
-    con = con + arr[i];
+// function concatenationOfString(arr) {
+//   let con = "";
+//   for (let i = 0; i < arr.length; i++) {
+//     con = con + arr[i];
+//   }
+//   return con;
+// }
+// let arr = ["Aritra", "Raj", "Rahul", "Soumodeep", "Amrtya", "Bijay"];
+// console.log(concatenationOfString(arr));
+
+function sumOfNNumber(n) {
+  let sum = 0;
+  for (let i = 1; i <= n; i++) {
+    sum += i;
   }
-  return con;
+  return sum;
 }
-let arr = ["Aritra", "Raj", "Rahul", "Soumodeep", "Amrtya", "Bijay"];
-console.log(concatenationOfString(arr));
+let n = prompt("Enter a number: ");
+n = parseInt(n);
+console.log(sumOfNNumber(n));
