@@ -6,10 +6,19 @@ let number = Math.floor(Math.random() * (end - start + 1)) + start;
 let guess = prompt("guess: ");
 while (guess != number) {
   if (guess == "quit") {
-    console.log("You are quiting the game");
+    alert("You are quiting the game");
     break;
+  } else if (guess > number) {
+    alert("you have enterde large number please enter small number");
+    guess = prompt("guess: ");
+  } else if (guess < number) {
+    alert("you have entered small number please enter large number");
+    guess = prompt("guess: ");
+  } else {
+    alert("wrong guess");
+    guess = prompt("guess: ");
   }
-  if (guess > number) {
-    alert("you have enterde large number plese enter small number");
-  }
+}
+if (guess == number) {
+  alert(`you have guess the right number that is ${number}`);
 }
