@@ -15,3 +15,9 @@ switch (quater) {
   default:
     console.log("Wrong");
 }
+let str = "aritra";
+if ((str[0] == "A" || str[0] == "a") && str.length > 5) {
+  console.log("golden string");
+} else {
+  console.log("not");
+}
