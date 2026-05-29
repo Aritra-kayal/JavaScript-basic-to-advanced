@@ -11,6 +11,6 @@
 //   console.log(`value of class number ${i} is changed`);
 // }
 
-//getElementsByTagName
-document.getElementsByTagName("p")[1].innerText = "Aritra is a good boy";
-document.getElementsByTagName("span");
+// //getElementsByTagName
+// document.getElementsByTagName("p")[1].innerText = "Aritra is a good boy";
+// document.getElementsByTagName("span");
