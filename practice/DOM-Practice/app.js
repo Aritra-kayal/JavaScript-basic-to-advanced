@@ -26,3 +26,12 @@
 // let allImg = document.querySelectorAll(".oldImg");
 // allImg[1].src = "assets/spiderman_img.png";
 // console.dir(document.querySelectorAll("div a"));
+
+//setting content in object
+let pera = document.querySelector("p");
+console.log(pera.innerText);
+console.log(pera.textContent);
+console.log(pera.innerHTML);
+let heading = document.querySelector("h1");
+heading.innerText = "Aritra";
+heading.innerHTML = `<u>${heading.innerText}</u>`;
