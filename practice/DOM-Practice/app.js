@@ -36,11 +36,11 @@
 // heading.innerText = "Aritra";
 // heading.innerHTML = `<u>${heading.innerText}</u>`;
 
-//manipulating attributes
-let img = document.querySelector("img");
-console.log(img.getAttribute("id"));
-img.setAttribute("id", "spiderman");
-let allImg = document.querySelectorAll("div.images img");
-let img1 = allImg[0];
-img1.setAttribute("src", "assets/spiderman_img.png");
-console.log(img1.getAttribute("src"));
+// //manipulating attributes
+// let img = document.querySelector("img");
+// console.log(img.getAttribute("id"));
+// img.setAttribute("id", "spiderman");
+// let allImg = document.querySelectorAll("div.images img");
+// let img1 = allImg[0];
+// img1.setAttribute("src", "assets/spiderman_img.png");
+// console.log(img1.getAttribute("src"));
