@@ -44,3 +44,11 @@
 // let img1 = allImg[0];
 // img1.setAttribute("src", "assets/spiderman_img.png");
 // console.log(img1.getAttribute("src"));
+
+//manipulating style with style attribute
+let heading = document.querySelector("h1");
+heading.style.color = "red";
+let links = document.querySelectorAll("div.box a");
+for (let i = 0; i < links.length; i++) {
+  links[i].style.color = "yellow";
+}
