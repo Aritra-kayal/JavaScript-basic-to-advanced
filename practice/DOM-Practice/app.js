@@ -14,3 +14,15 @@
 // //getElementsByTagName
 // document.getElementsByTagName("p")[1].innerText = "Aritra is a good boy";
 // document.getElementsByTagName("span");
+
+// //querySelector
+// let h1 = document.querySelector("h1");
+// h1.innerText = "Aritra";
+
+console.dir(document.querySelector("h1"));
+console.dir(document.querySelector("#mainImg"));
+console.dir(document.querySelector(".oldImg"));
+console.dir(document.querySelectorAll(".oldImg"));
+let allImg = document.querySelectorAll(".oldImg");
+allImg[1].src = "assets/spiderman_img.png";
+console.dir(document.querySelectorAll("div a"));
