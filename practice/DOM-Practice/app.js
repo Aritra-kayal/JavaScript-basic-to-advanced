@@ -76,17 +76,17 @@
 // box.classList.add("yellow");
 // console.log(box.classList);
 
-//navigation
-let h4 = document.querySelector("h4");
-console.log(h4.parentElement);
-let div = document.querySelector("div.box");
-console.log(div.children);
-console.log(div.childElementCount);
-let imgDiv = document.querySelector("div.images");
-console.log(imgDiv.children);
-console.log(imgDiv.childElementCount);
-console.log(imgDiv.children[0].previousElementSibling);
-console.log(imgDiv.children[1].previousElementSibling);
-console.log(imgDiv.children[2].previousElementSibling);
-console.log(imgDiv.children[0].nextElementSibling);
-console.log(imgDiv.children[2].nextElementSibling);
+// //navigation
+// let h4 = document.querySelector("h4");
+// console.log(h4.parentElement);
+// let div = document.querySelector("div.box");
+// console.log(div.children);
+// console.log(div.childElementCount);
+// let imgDiv = document.querySelector("div.images");
+// console.log(imgDiv.children);
+// console.log(imgDiv.childElementCount);
+// console.log(imgDiv.children[0].previousElementSibling);
+// console.log(imgDiv.children[1].previousElementSibling);
+// console.log(imgDiv.children[2].previousElementSibling);
+// console.log(imgDiv.children[0].nextElementSibling);
+// console.log(imgDiv.children[2].nextElementSibling);
