@@ -58,20 +58,20 @@
 //   link.style.color = "red";
 // }
 
-//classList
-let img = document.querySelector("img");
-console.log(img.classList);
-let heading = document.querySelector("h1");
-heading.classList.add("green", "underline");
-console.log(heading.classList);
-heading.classList.remove("underline");
-console.log(heading.classList);
-console.log(heading.classList.contains("underline"));
-console.log(heading.classList.contains("green"));
-console.log(heading.classList.toggle("green"));
-console.log(heading.classList.toggle("underline"));
-console.log(heading.classList);
-let box = document.querySelector("div.box");
-console.log(box.classList);
-box.classList.add("yellow");
-console.log(box.classList);
+// //classList
+// let img = document.querySelector("img");
+// console.log(img.classList);
+// let heading = document.querySelector("h1");
+// heading.classList.add("green", "underline");
+// console.log(heading.classList);
+// heading.classList.remove("underline");
+// console.log(heading.classList);
+// console.log(heading.classList.contains("underline"));
+// console.log(heading.classList.contains("green"));
+// console.log(heading.classList.toggle("green"));
+// console.log(heading.classList.toggle("underline"));
+// console.log(heading.classList);
+// let box = document.querySelector("div.box");
+// console.log(box.classList);
+// box.classList.add("yellow");
+// console.log(box.classList);
