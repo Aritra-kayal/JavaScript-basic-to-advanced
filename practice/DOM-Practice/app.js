@@ -116,7 +116,7 @@
 // box.insertAdjacentElement("afterend", btn2);
 
 //removing element
-let body = document.querySelector("body");
-let box = document.querySelector("div.box");
-// body.removeChild(box);
-box.remove();
+// let body = document.querySelector("body");
+// let box = document.querySelector("div.box");
+// // body.removeChild(box);
+// box.remove();
