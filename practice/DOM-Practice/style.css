@@ -26,3 +26,15 @@ body {
 #description {
   background-color: antiquewhite;
 }
+
+.green {
+  color: green;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.yellow {
+  background-color: yellow;
+}
